@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+
+    <!-- La Liga Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/laligabtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🇪🇸 Spanish La Liga"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        app:cornerRadius="24dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/premierbtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏴 English Premier League"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        app:cornerRadius="24dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/eflbtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏆 EFL League One"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="24dp" />
+
+</LinearLayout>
