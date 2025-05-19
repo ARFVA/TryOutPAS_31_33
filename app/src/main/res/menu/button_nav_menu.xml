@@ -3,13 +3,13 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@android:drawable/ic_menu_view"
-            android:title="Home" />
+            android:title="Premier" />
         <item
             android:id="@+id/nav_dashboard"
             android:icon="@android:drawable/ic_menu_manage"
-            android:title="Dashboard" />
+            android:title="Laliga" />
         <item
             android:id="@+id/nav_notifications"
             android:icon="@android:drawable/ic_menu_info_details"
-            android:title="Notifications" />
+            android:title="Efl" />
 </menu>
